@@ -1,8 +1,11 @@
 {
     "name": "evernore",
     "version": "0.0.1",
+    "description": "随手笔记",
     "author": "xueliang",
+    "license": "BSD",
     "scripts": {
-        "start": "gitbook serve"
+        "start": "gitbook serve",
+        "build": "gitbook build ./ ./mybook"
     }
 }
