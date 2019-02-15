@@ -3,3 +3,5 @@ _book/
 .idea
 .svn
 node_modules/
+
+mybook/
