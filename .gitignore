@@ -4,4 +4,4 @@ _book/
 .svn
 node_modules/
 
-mybook/
+/mybook
