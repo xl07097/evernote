@@ -12,6 +12,7 @@
     npm config set cache 'd:\node_cache'
     npm config set prdfix 'd:\node_global'
    ```
+   ps: 自定义全局文件夹时，需要添加到环境变量
 
 2. taobao 镜像
    * 命令行
