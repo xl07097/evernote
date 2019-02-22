@@ -10,9 +10,9 @@
    ```JavaScript
    Math.max.apply(null, arr)
    ```
- 注：call 与 apply 的作用是改变函数运行时的上下文环境，区别是传参方式不同
+ 注：`call` 与 `apply` 的作用是改变函数运行时的上下文环境，区别是传参方式不同
 
-3. for 循环中使用 setTimeout 打印 1,2,3......
+3. `for` 循环中使用 `setTimeout` 打印 `1,2,3......`
    * 使用 setTimeout 的第三个参数（IE10+）
    ```JavaScript
     for(var i = o; i < 10; i++){
@@ -31,7 +31,7 @@
         })(i)
     }
    ```
-   * 使用 let 定义变量，不会出现变量提升（hoisting）
+   * 使用 `let` 定义局部变量，不会出现变量提升`（hoisting）`
     ```JavaScript
     for(let i = 0;i < 10; i++){
         setTimeout(function(){
