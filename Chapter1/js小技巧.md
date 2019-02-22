@@ -12,7 +12,7 @@
    Math.max.apply(null, arr)
    Math.max(...arr) // 扩展运算符
    ```
- 注：`call` 与 `apply` 的作用是改变函数运行时的上下文环境，区别是传参方式不同
+ > 注：`call` 与 `apply` 的作用是改变函数运行时的上下文环境，区别是传参方式不同
 
 3. `for` 循环中使用 `setTimeout` 打印 `1,2,3......`
    * 使用 setTimeout 的第三个参数（IE10+）
