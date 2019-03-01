@@ -7,4 +7,5 @@
   * [第2节：js 小技巧](Chapter1/js小技巧.md)
   * [第3节：nodejs 配置](Chapter1/nodejs配置.md)
   * [第4节：行](Chapter1/行.md)
+  * [第五节：gitbook 简单使用](Chapter1/gitbook.md)
 * [第二章](Chapter2/README.md)
