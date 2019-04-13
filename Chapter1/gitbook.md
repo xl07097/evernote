@@ -9,4 +9,3 @@
    * `gitbook pdf ./ ./mybook.pdf ` pdf 格式
    * `gitbook epub ./ ./mybook.epub` epub 格式电子书
    * `gitbook mobi ./ ./mybook.mobi` mobi 格式电子书
-

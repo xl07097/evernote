@@ -9,3 +9,4 @@
   * [第4节：行](Chapter1/行.md)
   * [第五节：gitbook 简单使用](Chapter1/gitbook.md)
 * [第二章](Chapter2/README.md)
+  * [webpack 学习](Chapter2/learnwebpack.md)

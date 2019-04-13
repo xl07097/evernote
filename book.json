@@ -4,50 +4,79 @@
     "description": "记录所学所感",
     "language": "zh-hans",
     "gitbook": "3.2.3",
+    "link": {
+        "sidebar": {
+            "Home": "http://www.zhiqiuge.com"
+        }
+    },
     "styles": {
-        "website": "./styles/website.css"
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
     },
     "structure": {
         "readme": "README.md"
     },
     "plugins": [
-        "-sharing",
-        "splitter",
-        "expandable-chapters-small",
-        "anchors",
-
-        "github",
-        "github-buttons",
-        "donate",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "github" ,
+        "-sharing", 
         "sharing-plus",
-        "anchor-navigation-ex",
-        "favicon"
+        "back-to-top-button",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "insert-logo",
+        "code",
+        "page-copyright"
     ],
     "pluginsConfig": {
+        "insert-logo": {
+            "url": "images/logo.png",
+            "style":"background:none;max-height:30px;min-height:30px;"
+        },
         "github": {
             "url": "https://github.com/xl07097"
         },
-        "github-buttons": {
-            "buttons": [{
-                "user": "Blankj",
-                "repo": "glory",
-                "type": "star",
-                "size": "small",
-                "count": true
-                }
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": true,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "douban", "facebook", "google", "hatenaBookmark", 
+                "instapaper", "linkedin","twitter", "weibo", 
+                "messenger","qq", "qzone","viber","vk","weibo",
+                "pocket", "stumbleupon","whatsapp"
             ]
         },
-        "anchor-navigation-ex": {
-            "showLevel": false
-        },
-        "favicon":{
-            "shortcut": "./source/images/favicon.jpg",
-            "bookmark": "./source/images/favicon.jpg",
-            "appleTouch": "./source/images/apple-touch-icon.jpg",
-            "appleTouchMore": {
-                "120x120": "./source/images/apple-touch-icon.jpg",
-                "180x180": "./source/images/apple-touch-icon.jpg"
-            }
-        }
+        "page-copyright": {
+            "description": "modified at",
+            "signature": "你的签名",
+            "wisdom": "Designer, Frontend Developer & overall web enthusiast",
+            "format": "YYYY-MM-dd hh:mm:ss",
+            "copyright": "Copyright &#169; 你的名字",
+            "timeColor": "#666",
+            "copyrightColor": "#666",
+            "utcOffset": "8",
+            "style": "normal",
+            "noPowered": false
+          }
     }
 }

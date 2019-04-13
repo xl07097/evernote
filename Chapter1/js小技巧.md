@@ -1,5 +1,4 @@
 # 第2节：js 小技巧
-
 ---
 
 1. 求数组中的最小值
@@ -7,6 +6,7 @@
    Math.min.apply(null, arr)
    Math.min(...arr) // 扩展运算符
    ```
+
 2. 求数组中的最大值
    ```JavaScript
    Math.max.apply(null, arr)
