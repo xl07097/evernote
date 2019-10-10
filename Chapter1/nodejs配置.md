@@ -13,7 +13,6 @@
    * 命令行
 
    ```
-
     npm config set cache 'd:\node_cache'
     npm config set prdfix 'd:\node_global'
    ```
@@ -27,7 +26,6 @@
     ```
 
     ```
-
     cache=D:\Program Files\nodejs\node_cache
     prefix=D:\Program Files\nodejs\node_global
     proxy=null
