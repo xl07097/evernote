@@ -1,4 +1,4 @@
-# 第1节：markdown 语法练习
+# 第1节：markdown 语法练习<!-- {docsify-ignore-all} -->
 
 ## 1.  一 标题
 
@@ -33,11 +33,17 @@
 
 ## 5. 图片
 
-![hahah](/assets/111.jpg "hahah")
+![hahah](../assets/111.jpg "hahah")
+```md
+![hahah](../assets/111.jpg "hahah")
+```
 
 ## 6. 超链接
 
 [百度](https://www.baidu.com)
+```md
+[百度](https://www.baidu.com)
+```
 
 ## 7. 列表（注意加空格）
 
