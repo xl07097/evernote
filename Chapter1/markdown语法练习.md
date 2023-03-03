@@ -1,4 +1,4 @@
-# 第1节：markdown 语法练习<!-- {docsify-ignore-all} -->
+# 第1节：markdown 语法练习
 
 ## 1.  一 标题
 
