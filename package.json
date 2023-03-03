@@ -1,0 +1,10 @@
+{
+  "name": "evernote",
+  "version": "0.0.1",
+  "description": "随手笔记",
+  "author": "xueliang",
+  "license": "BSD",
+  "scripts": {
+    "serve": "docsify serve"
+  }
+}
